@@ -1,0 +1,5 @@
+node_modules/
+archive/
+index.min.js
+index.min.js.map
+package-lock.json

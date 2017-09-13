@@ -1,0 +1,25 @@
+{
+  "name": "plumberwars",
+  "version": "0.6.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node dev.js dev",
+    "dev": "node dev.js dev",
+    "server": "node dev.js server",
+    "watch": "node dev.js watch",
+    "build": "node dev.js build",
+    "test": "node dev.js compile"
+  },
+  "author": "Patryk Dobrosz",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^0.43.0",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-uglify-es": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "rollup-plugin-closure-compiler-js": "^1.0.5"
+  }
+}
